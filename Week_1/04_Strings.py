@@ -61,7 +61,13 @@ print(str2[2])
 # Reversing a string in Python
 print(str2[::-1])
 
+str3 = "Javascript"
+print(str3[::-1])
 
 
+a = 35
+b = 45.7
+c = "Cemil"
 
-
+# Compile Error
+# print(c + a)
