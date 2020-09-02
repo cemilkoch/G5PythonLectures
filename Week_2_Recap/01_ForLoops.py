@@ -86,3 +86,9 @@ numbers_list = [0.1, 45, 235, 0.45, 2, 95, 63, -0.5]
 # Using a for loop, generate a new list containing every object in
 # the numbers_list multiplied by 10
 # Hint : Use * operator to perform a multiplication
+lst2 = []
+for i in numbers_list:
+    result = i * 10
+    lst2.append(result)
+
+print(lst2)
