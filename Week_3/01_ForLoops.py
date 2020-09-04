@@ -80,3 +80,14 @@ squares = []
 for i in lst:
     squares.append(i ** 2)
 print(squares)
+
+numbers = range(1, 11)
+
+for number in numbers:
+    print(number, end=" ")
+print()
+
+number = 1
+while number < 11:
+    print(number, end=' ')
+    number +=1
